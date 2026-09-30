@@ -2,6 +2,11 @@
 # For example, you can import the math module to perform mathematical operations.
 import math
 
+A = 64
+print("The square root of", A, "is", math.sqrt(A))
+# The math.sqrt() function calculates the square root of a number.
+# In this case, it calculates the square root of 64, which is 8.0.
+
 #########################################################################################################################
 
 # print() function is used to display output to the console.
@@ -19,14 +24,7 @@ print("Hello", "World", sep=", ")
 print("We are learning " + "Python")
 
 # print() with format. The curly braces {} are used as placeholders
-# !!!print("The numbers are {} and {}", format(10, str(10)), end="\n")
-
-#########################################################################################################################
-
-A = 64
-print("The square root of", A, "is", math.sqrt(A))
-# The math.sqrt() function calculates the square root of a number.
-# In this case, it calculates the square root of 64, which is 8.0.
+print("The numbers are {} and {}".format(10, 20))
 
 #########################################################################################################################
 
@@ -54,8 +52,6 @@ print(string1 + ", " + string2)  # Concatenation of strings
 print(string1 + string4 + string2)  # Output: Hello World
 print(string3)  # Output: HelloWorld
 print(string5)  # Output: HelloHelloHello
-
-#########################################################################################################################
 
 # type() function is used to determine the data type of a variable or value.
 print(type(integer1))  # Output: <class 'int'>
@@ -99,8 +95,6 @@ print(10 / 3)  # Output: 3.3333333333333335
 print(10 // 3)  # Output: 3
 print(10 % 3)  # Output: 1
 print(10**3)  # Output: 1000
-
-#########################################################################################################################
 
 # Relational Operators in Python:
 # 1. Equal to (==): Checks if two values are equal.
