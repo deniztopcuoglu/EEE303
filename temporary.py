@@ -92,10 +92,45 @@ print(
 # 6. Modulus (%): Returns the remainder of a division operation.
 # 7. Exponentiation (**): Raises one number to the power of another.
 
-print("Addition:", 10 + 3)  # Output: 13
-print("Subtraction:", 10 - 3)  # Output: 7
-print("Multiplication:", 10 * 3)  # Output: 30
-print("Division:", 10 / 3)  # Output: 3.3333333333333335
-print("Floor Division:", 10 // 3)  # Output: 3
-print("Modulus:", 10 % 3)  # Output: 1
-print("Exponentiation:", 10**3)  # Output: 1000
+print(10 + 3)  # Output: 13
+print(10 - 3)  # Output: 7
+print(10 * 3)  # Output: 30
+print(10 / 3)  # Output: 3.3333333333333335
+print(10 // 3)  # Output: 3
+print(10 % 3)  # Output: 1
+print(10**3)  # Output: 1000
+
+#########################################################################################################################
+
+# Relational Operators in Python:
+# 1. Equal to (==): Checks if two values are equal.
+# 2. Not equal to (!=): Checks if two values are not equal.
+# 3. Greater than (>): Checks if one value is greater than another.
+# 4. Less than (<): Checks if one value is less than another.
+# 5. Greater than or equal to (>=): Checks if one value is greater than or equal to another.
+# 6. Less than or equal to (<=): Checks if one value is less than or equal to another.
+
+print(10 == 3)  # Output: False
+print(10 != 3)  # Output: True
+print(10 > 3)  # Output: True
+print(10 < 3)  # Output: False
+print(10 >= 3)  # Output: True
+print(10 <= 3)  # Output: False
+
+#########################################################################################################################
+
+# If, Elif, and Else Statements in Python:
+# These statements are used for conditional execution of code blocks based on certain conditions.
+# The if statement checks a condition, and if it evaluates to True, the code block under it is executed.
+# The elif (else if) statement allows you to check multiple conditions.
+# The else statement is executed if none of the previous conditions are True.
+
+number = 10
+if number > 0:
+    print("The number is positive.")
+elif number < 0:
+    print("The number is negative.")
+else:
+    print("The number is zero.")
+
+#########################################################################################################################
