@@ -19,7 +19,7 @@ print("Hello", "World", sep=", ")
 print("We are learning " + "Python")
 
 # print() with format. The curly braces {} are used as placeholders
-print("The numbers are {} and {}", format(10), end="\n")
+# !!!print("The numbers are {} and {}", format(10, str(10)), end="\n")
 
 #########################################################################################################################
 
@@ -56,3 +56,46 @@ print(string3)  # Output: HelloWorld
 print(string5)  # Output: HelloHelloHello
 
 #########################################################################################################################
+
+# type() function is used to determine the data type of a variable or value.
+print(type(integer1))  # Output: <class 'int'>
+print(type(float1))  # Output: <class 'float'>
+print(type(complex1))  # Output: <class 'complex'>
+
+#########################################################################################################################
+
+# input() function is used to take user input from the console.
+# The input() function always returns the input as a string.
+input1 = input("Enter your name: ")
+print("Hello, " + input1 + "!")  # Concatenating the input with a greeting message.
+
+# to convert the input to an integer, you can use the int() function.
+input2 = int(input("Enter your age: "))
+print(
+    "You are " + str(input2) + " years old."
+)  # Converting the integer input back to a string for concatenation.
+
+# You can also convert the input to a float using the float() function.
+input3 = float(input("Enter your height in meters: "))
+print(
+    "Your height is " + str(input3) + " meters."
+)  # Converting the float input back to a string for concatenation.
+
+#########################################################################################################################
+
+# Arithmatic Operators in Python:
+# 1. Addition (+): Adds two numbers together.
+# 2. Subtraction (-): Subtracts one number from another.
+# 3. Multiplication (*): Multiplies two numbers together.
+# 4. Division (/): Divides one number by another and returns a float.
+# 5. Floor Division (//): Divides one number by another and returns the largest integer less than or equal to the result.
+# 6. Modulus (%): Returns the remainder of a division operation.
+# 7. Exponentiation (**): Raises one number to the power of another.
+
+print("Addition:", 10 + 3)  # Output: 13
+print("Subtraction:", 10 - 3)  # Output: 7
+print("Multiplication:", 10 * 3)  # Output: 30
+print("Division:", 10 / 3)  # Output: 3.3333333333333335
+print("Floor Division:", 10 // 3)  # Output: 3
+print("Modulus:", 10 % 3)  # Output: 1
+print("Exponentiation:", 10**3)  # Output: 1000
